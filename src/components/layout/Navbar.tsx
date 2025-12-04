@@ -52,9 +52,6 @@ export function Navbar() {
                                 {link.name}
                             </Link>
                         ))}
-                        <Button size="sm" variant="primary">
-                            Get Started
-                        </Button>
                     </div>
 
                     {/* Mobile Menu Toggle */}
@@ -81,9 +78,6 @@ export function Navbar() {
                                 {link.name}
                             </Link>
                         ))}
-                        <Button className="w-full" variant="primary">
-                            Get Started
-                        </Button>
                     </Container>
                 </div>
             )}
